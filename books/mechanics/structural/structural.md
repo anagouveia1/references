@@ -5,7 +5,14 @@ references/sofware/engineering/structural/
 
 <b><u>For legal aspects of several engineering areas see:</b></u>
 
-references/codesandstandards/
+references/codesandstandards/ \n
 (https://github.com/anagouveia1/references/tree/master/codesandstandards)
+
+
+<b><u>For more information regarding materials see see:</b></u>
+
+references/books/materials \n
+(https://github.com/anagouveia1/references/tree/master/books/materials)
+
 
 <i>Last Updated: <u>ARGouveia</u> 09.13.2017 | Boston, MA, USA </i>
