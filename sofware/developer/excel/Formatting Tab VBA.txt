@@ -1,0 +1,207 @@
+Sub Worksheet()
+'
+' Worksheet Macro
+'
+
+'
+Sheets("Span 6-I").Select
+Sheets("Span 6-I").Copy After:=Sheets(8)
+Sheets("Span 6-I").Copy After:=Sheets(9)
+Sheets("Span 7-I").Select
+Sheets("Span 7-I").Copy After:=Sheets(12)
+Sheets("Span 7-I").Copy After:=Sheets(13)
+
+End Sub
+Sub FormattingTab()
+'
+' FormattingTab Macro
+'
+
+'
+    Sheets(9).Select
+    Cells.Select
+    With Selection.Interior
+        .Pattern = xlNone
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("A1").Select
+    Selection.Cut
+    Range("C1").Select
+    ActiveSheet.Paste
+    Range("H1").Select
+    Selection.Cut
+    Range("A1").Select
+    ActiveSheet.Paste
+    Cells.Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    Selection.Borders(xlEdgeLeft).LineStyle = xlNone
+    Selection.Borders(xlEdgeTop).LineStyle = xlNone
+    Selection.Borders(xlEdgeBottom).LineStyle = xlNone
+    Selection.Borders(xlEdgeRight).LineStyle = xlNone
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("A5:A15,C5:C15,D4:S4").Select
+    Range("D4").Activate
+    ActiveWindow.SmallScroll Down:=6
+    Range("A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33").Select
+    Range("T21").Activate
+    ActiveWindow.SmallScroll Down:=24
+    Range("A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48"). _
+        Select
+    Range("D48").Activate
+    ActiveWindow.SmallScroll Down:=18
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75" _
+        ).Select
+    Range("T65").Activate
+    ActiveWindow.SmallScroll Down:=21
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99" _
+        ).Select
+    Range("C89").Activate
+    ActiveWindow.SmallScroll Down:=6
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99" _
+        ).Select
+    Range("A89").Activate
+    ActiveWindow.SmallScroll Down:=15
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115" _
+        ).Select
+    Range("T105").Activate
+    ActiveWindow.SmallScroll Down:=24
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132" _
+        ).Select
+    Range("D132").Activate
+    ActiveWindow.SmallScroll Down:=15
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132,D148:S148,C149:C161,T149:T161" _
+        ).Select
+    Range("T149").Activate
+    ActiveWindow.SmallScroll Down:=30
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132,D148:S148,C149:C161,T149:T161,D173:S173,C174:C184,A174:A184" _
+        ).Select
+    Range("A174").Activate
+    ActiveWindow.SmallScroll Down:=21
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132,D148:S148,C149:C161,T149:T161,D173:S173,C174:C184,A174:A184,C190:C202,D189:S189" _
+        ).Select
+    Range("T190").Activate
+    ActiveWindow.SmallScroll Down:=9
+    Range( _
+        "A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132,D148:S148,C149:C161,T149:T161,D173:S173,C174:C184,A174:A184,C190:C202,D189:S189" _
+        ).Select
+    Range("D215").Activate
+    ActiveWindow.SmallScroll Down:=18
+    Union(Range( _
+        "A216:A226,A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132,D148:S148,C149:C161,T149:T161,D173:S173,C174:C184,A174:A184,C190:C202" _
+        ), Range("C216:C226")).Select
+    Range("A216").Activate
+    ActiveWindow.SmallScroll Down:=9
+    Union(Range( _
+        "A216:A226,C232:C243,C244,D231:S231,T232:T244,A5:A15,C5:C15,D4:S4,D20:S20,C21:C33,T21:T33,C49:C59,A49:A59,D48:S48,D64:S64,C65:C77,T65:T75,D88:S88,C89:C99,A89:A99,C105:C117,D104:S104,T105:T115,C133:C143,A133:A143,D132:S132,D148:S148,C149:C161,T149:T161" _
+        ), Range("C190:C202,D189:S189,T190:T202,D215:S215,C216:C226")).Select
+    Range("T232").Activate
+    ActiveWindow.SmallScroll Down:=3
+    Selection.Font.Bold = True
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = -0.149998474074526
+        .PatternTintAndShade = 0
+    End With
+    Range("D232:S242").Select
+    Range("S242").Activate
+    ActiveWindow.SmallScroll Down:=-12
+    Range("D232:S242,D216:S226").Select
+    Range("S226").Activate
+    ActiveWindow.SmallScroll Down:=-48
+    Range("D232:S242,D216:S226,D174:S184").Select
+    Range("S184").Activate
+    ActiveWindow.SmallScroll Down:=21
+    Range("D232:S242,D216:S226,D174:S184,D190:S202,D190:S200").Select
+    Range("D200").Activate
+    ActiveWindow.SmallScroll Down:=-42
+    Range("D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161"). _
+        Select
+    Range("D160").Activate
+    ActiveWindow.SmallScroll Down:=-24
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143" _
+        ).Select
+    Range("S143").Activate
+    ActiveWindow.SmallScroll Down:=-24
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143,D105:S115,D116:S117" _
+        ).Select
+    Range("S117").Activate
+    ActiveWindow.SmallScroll Down:=-15
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143,D105:S115,D116:S117,D89:S99" _
+        ).Select
+    Range("D99").Activate
+    ActiveWindow.SmallScroll Down:=-18
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143,D105:S115,D116:S117,D89:S99,D65:S75" _
+        ).Select
+    Range("S75").Activate
+    ActiveWindow.SmallScroll Down:=-21
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143,D105:S115,D116:S117,D89:S99,D65:S75,D49:S59" _
+        ).Select
+    Range("D59").Activate
+    ActiveWindow.SmallScroll Down:=-27
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143,D105:S115,D116:S117,D89:S99,D65:S75,D49:S59,D21:S31" _
+        ).Select
+    Range("S31").Activate
+    ActiveWindow.SmallScroll Down:=-21
+    Range( _
+        "D232:S242,D216:S226,D174:S184,D190:S202,D190:S200,D149:S159,D160:S161,D133:S143,D105:S115,D116:S117,D89:S99,D65:S75,D49:S59,D21:S31,D5:S15" _
+        ).Select
+    Range("S15").Activate
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Columns("V:V").Select
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 3
+    ActiveWindow.ScrollColumn = 4
+    ActiveWindow.ScrollColumn = 5
+    ActiveWindow.ScrollColumn = 6
+    ActiveWindow.ScrollColumn = 7
+    Columns("V:AE").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.LargeScroll ToRight:=-1
+    Range("P35").Select
+End Sub

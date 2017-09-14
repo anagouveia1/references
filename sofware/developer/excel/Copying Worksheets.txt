@@ -1,0 +1,29 @@
+Sub Worksheet()
+'
+' Worksheet Macro
+'
+
+'
+Sheets("Span 8-I").Select
+Sheets("Span 8-I").Copy After:=Sheets(10)
+Sheets("Span 8-I").Copy After:=Sheets(11)
+Sheets("Span 8-I").Copy After:=Sheets(12)
+Sheets("Span 8-I").Copy After:=Sheets(13)
+ActiveSheet.Name = "Span 9-I"
+Sheets("Span 9-I").Select
+Sheets("Span 9-I").Copy After:=Sheets(14)
+Sheets("Span 9-I").Copy After:=Sheets(15)
+Sheets("Span 9-I").Copy After:=Sheets(16)
+Sheets("Span 9-I").Copy After:=Sheets(17)
+ActiveSheet.Name = "Span 10-I"
+Sheets("Span 10-I").Select
+Sheets("Span 10-I").Copy After:=Sheets(18)
+Sheets("Span 10-I").Copy After:=Sheets(19)
+Sheets("Span 10-I").Copy After:=Sheets(20)
+Sheets("Span 10-I").Copy After:=Sheets(21)
+ActiveSheet.Name = "Span 11-I"
+Sheets("Span 11-I").Select
+Sheets("Span 11-I").Copy After:=Sheets(22)
+Sheets("Span 11-I").Copy After:=Sheets(23)
+Sheets("Span 11-I").Copy After:=Sheets(24)
+End Sub

@@ -1,0 +1,191 @@
+Sub RefFinder()
+'
+' RefFinder Macro
+'
+
+'
+    Range("D21").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("E21").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("S21").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("S22").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("S31").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("D22").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("E22").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("D31").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("E31").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,4)"
+    Range("E21").Select
+    Selection.AutoFill Destination:=Range("E21:R21"), Type:=xlFillDefault
+    Range("E21:R21").Select
+    Range("E22").Select
+    Selection.AutoFill Destination:=Range("E22:R22"), Type:=xlFillDefault
+    Range("E22:R22").Select
+    Range("D22:S22").Select
+    Selection.AutoFill Destination:=Range("D22:S30"), Type:=xlFillDefault
+    Range("D22:S30").Select
+    Range("E31").Select
+    Selection.AutoFill Destination:=Range("E31:R31"), Type:=xlFillDefault
+    Range("E31:R31").Select
+    
+     ActiveWindow.SmallScroll Down:=9
+    Range("D65").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("D66").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("D75").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("D76").Select
+    ActiveWindow.SmallScroll Down:=6
+    Range("E65").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("E66").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("E75").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("S65").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("S66").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("S75").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,5)"
+    Range("S76").Select
+    ActiveWindow.SmallScroll Down:=15
+    Range("E65:E66").Select
+    Selection.AutoFill Destination:=Range("E65:R66"), Type:=xlFillDefault
+    Range("E65:R66").Select
+    Range("D66:S66").Select
+    Selection.AutoFill Destination:=Range("D66:S74"), Type:=xlFillDefault
+    Range("D66:S74").Select
+    Range("E75").Select
+    Selection.AutoFill Destination:=Range("E75:R75"), Type:=xlFillDefault
+    Range("E75:R75").Select
+    ActiveWindow.SmallScroll Down:=24
+    Range("D105").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("D106").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("D107").Select
+    ActiveWindow.SmallScroll Down:=3
+    Range("D115").Select
+    ActiveWindow.SmallScroll Down:=-24
+    Range("D76").Select
+    ActiveWindow.SmallScroll Down:=27
+    Range("D115").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("S105").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("S106").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("S115").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("D106").Select
+    Selection.AutoFill Destination:=Range("D106:D114"), Type:=xlFillDefault
+    Range("D106:D114").Select
+    Range("E105").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("E106").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("E115").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,6)"
+    Range("E116").Select
+    ActiveWindow.SmallScroll Down:=-3
+    Range("S106").Select
+    Selection.AutoFill Destination:=Range("S106:S114"), Type:=xlFillDefault
+    Range("S106:S114").Select
+    Range("E106").Select
+    Selection.AutoFill Destination:=Range("E106:E114"), Type:=xlFillDefault
+    Range("E106:E114").Select
+    Range("E105:E115").Select
+    Selection.AutoFill Destination:=Range("E105:R115"), Type:=xlFillDefault
+    Range("E105:R115").Select
+    ActiveWindow.SmallScroll Down:=54
+    Range("D149").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("D150").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("D159").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("E149").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("E150").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("S149").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("S150").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("S159").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("E149:E150").Select
+    Selection.AutoFill Destination:=Range("E149:R150"), Type:=xlFillDefault
+    Range("E149:R150").Select
+    Range("D150:S150").Select
+    Selection.AutoFill Destination:=Range("D150:S158"), Type:=xlFillDefault
+    Range("D150:S158").Select
+    Range("E159").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,7)"
+    Range("E159").Select
+    Selection.AutoFill Destination:=Range("E159:R159"), Type:=xlFillDefault
+    Range("E159:R159").Select
+    ActiveWindow.SmallScroll Down:=36
+    Range("D190").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("D191").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("D200").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("S190").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("S191").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("S200").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("E190").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("E191").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("E200").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,8)"
+    Range("E190:E191").Select
+    Selection.AutoFill Destination:=Range("E190:R191"), Type:=xlFillDefault
+    Range("E190:R191").Select
+    Range("D191:S191").Select
+    Selection.AutoFill Destination:=Range("D191:S199"), Type:=xlFillDefault
+    Range("D191:S199").Select
+    Range("E200").Select
+    Selection.AutoFill Destination:=Range("E200:R200"), Type:=xlFillDefault
+    Range("E200:R200").Select
+    ActiveWindow.SmallScroll Down:=39
+    Range("D232").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("D233").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("D242").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("E242").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("E233").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("E232").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("S232").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("S233").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("S242").Select
+    ActiveCell.FormulaR1C1 = "=VLOOKUP(R[-16]C,R1C22:R6109C30,9)"
+    Range("E232:E242").Select
+    Selection.AutoFill Destination:=Range("E232:R242"), Type:=xlFillDefault
+    Range("E232:R242").Select
+    Range("D233:S233").Select
+    Selection.AutoFill Destination:=Range("D233:S241"), Type:=xlFillDefault
+    Range("D233:S241").Select
+    ActiveWindow.SmallScroll Down:=-177
+End Sub

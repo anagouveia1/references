@@ -1,0 +1,14 @@
+Sub Worksheet()
+'
+' Worksheet Macro
+'
+
+For i = 9 To 42
+Sheets(i).Select
+Sheets(i).Copy After:=Sheets(i)
+i = i + 2
+Sheets(i).Select
+Sheets(i).Copy After:=Sheets(i)
+i = i + 4
+
+End Sub
