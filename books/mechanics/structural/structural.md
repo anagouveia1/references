@@ -1,3 +1,8 @@
+<b><u>For technical material in structural engineering  see: </b></u>
+
+references/books/mechanics/structural/
+(https://github.com/anagouveia1/references/tree/master/books/mechanics/structural)
+
 <b><u>For tutorials in specific structural engineering software see: </b></u>
 
 references/sofware/engineering/structural/
