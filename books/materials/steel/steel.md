@@ -1,3 +1,12 @@
+<b><u>For more information related to AISC and Steel Design Guides see:</b></u>
+
+references/books/materials \n
+(https://github.com/anagouveia1/references/tree/master/codesandstandards/organizations/AISC)
+
+<b><u>For more information regarding materials see see:</b></u>
+
+references/books/materials \n
+(https://github.com/anagouveia1/references/tree/master/books/materials)
 
 <b><u>For technical material in structural engineering  see: </b></u>
 
@@ -13,12 +22,5 @@ references/sofware/engineering/structural/
 
 references/codesandstandards/ \n
 (https://github.com/anagouveia1/references/tree/master/codesandstandards)
-
-
-<b><u>For more information regarding materials see see:</b></u>
-
-references/books/materials \n
-(https://github.com/anagouveia1/references/tree/master/books/materials)
-
 
 <i>Last Updated: <u>ARGouveia</u> 09.13.2017 | Boston, MA, USA </i>
