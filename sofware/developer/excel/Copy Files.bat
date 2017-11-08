@@ -1,1 +1,0 @@
-copy "\\stvgroup.stvinc.com\V3\BOMA\vol3\Projects\4016034\4016034_0001\60_Discipline Info\Structural\Front Check\DP-1\Arches\Span 7\STAAD\Span 7 WIND_71%.std" "\\stvgroup.stvinc.com\V3\BOMA\vol3\Projects\4016034\4016034_0001\60_Discipline Info\Structural\Front Check\DP-7\MBTA Diaphragm Replacement\Temporary Works\Span 7"
